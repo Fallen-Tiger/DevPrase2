@@ -92,7 +92,7 @@ func SearchJSON(Path string, PathSet *[]string) {
 			SearchJSON(filepath.Join(Path, file.Name()), PathSet)
 		} else if strings.HasSuffix(file.Name(), ".json") {
 			*PathSet = append(*PathSet, filepath.Join(Path, file.Name()))
-		} else if strings.HasSuffix(file.Name(), "yarn.lock") {
+		} else if strings.HasSuffix(file.Name(), "yarn.lock ") {
 			*PathSet = append(*PathSet, filepath.Join(Path, file.Name()))
 		}
 
