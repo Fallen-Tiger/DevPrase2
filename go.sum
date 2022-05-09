@@ -1,0 +1,4 @@
+github.com/iseki0/go-yarnlock v0.0.1 h1:p9xkiL9DIx0ZP7kioW+6Mydydvlf9m65HbSlBTZ3ubU=
+github.com/iseki0/go-yarnlock v0.0.1/go.mod h1:qYLyGua0xN8X0JvimGj13UBVgNBK/weoP76HHJHFnKA=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
